@@ -53,7 +53,7 @@
   "plugins": {
     "entries": {
       "alibaba": {
-        "enabled": false
+        "enabled": true
       },
       "anthropic": {
         "enabled": true
@@ -83,7 +83,7 @@
         "enabled": false
       },
       "deepseek": {
-        "enabled": false
+        "enabled": true
       },
       "fireworks": {
         "enabled": false
@@ -137,7 +137,7 @@
         "enabled": false
       },
       "ollama": {
-        "enabled": false
+        "enabled": true
       },
       "openai": {
         "enabled": true
