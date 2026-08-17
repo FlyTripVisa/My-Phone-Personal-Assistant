@@ -51,7 +51,7 @@
 
   "discovery": {
     "mdns": {
-      "mode": "off"
+      "mode": "true"
     }
   },
 
@@ -62,7 +62,7 @@
   "plugins": {
     "entries": {
       "cloudflare-ai-gateway": {
-        "enabled": false
+        "enabled": true
       },
       "openai": {
         "enabled": true
