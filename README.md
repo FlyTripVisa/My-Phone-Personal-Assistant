@@ -1,4 +1,27 @@
-# OpenClaw Hyperlift Template
+# My Phone AI Alion Assist
+
+My-Phone-Personal-Assistant/
+│
+├── seed/
+│   ├── skills/
+│   │   └── git-sync/
+│   │
+│   ├── workspace/
+│   │   ├── hooks/
+│   │   ├── sync/
+│   │   └── BOOTSTRAP.md
+│   │
+│   ├── openclaw.default.json
+│   └── workspace-sync.gitignore
+│
+├── .gitignore
+├── Dockerfile
+├── LICENSE
+├── README.md
+└── init.sh
+
+
+# My Phone AI Alion Template
 
 A ready-to-deploy [OpenClaw](https://docs.openclaw.ai/) agent gateway for [Spaceship Hyperlift](https://hyperlift.spaceship.com). Deploy to run a hosted AI agent with a web control UI. The agent's workspace — its memory, personality, and configuration — persists on the deployment's volume, and can optionally sync to a branch of your own GitHub repository so you can edit it from your machine and keep your own backup.
 
@@ -74,6 +97,7 @@ Almost everything about the deployment lives in `openclaw.json` — the model, e
 | **Remote CLI** | The `openclaw` CLI on your machine | *Operating* the gateway (health, logs, messaging) — **not** config: `config`/`plugins`/`onboard` run locally, not on the deployment. See [Remote CLI limitations](#remote-cli-limitations). |
 
 Pick whichever suits the change — the [model-provider steps](#configure-your-model-provider) above, for example, use `/bash` (onboarding) or Raw Mode (manual edits). Whichever you use, keep secrets out of `openclaw.json` — see [Security](#security).
+
 
 ## Persistent storage
 
