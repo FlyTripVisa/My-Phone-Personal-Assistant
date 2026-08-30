@@ -224,3 +224,6 @@ The gateway and its web chat are served on a public URL, so treat the deployment
 ## License
 
 This template is released under the [MIT License](LICENSE).
+
+
+git clone https://x:art_v2_x_efab4679f9fe90af126b0f4f1f26064bbbf51036@31b91e7f9954ad8aa334d46f012bd8ed.artifacts.cloudflare.net/git/lee-production/lee-ftv-mini-app-441aefcf.git ftv-mini-app
